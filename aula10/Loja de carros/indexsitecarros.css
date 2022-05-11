@@ -6,9 +6,7 @@
     font-family:'Open Sans', sans-serif;
 }
 .logo{
-    display: inline;
-    float: left;
-    text-align: center;
+    align-items: center;
 }
 #menu ul{
     list-style-type: none;
