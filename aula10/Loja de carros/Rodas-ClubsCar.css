@@ -5,58 +5,64 @@
     box-sizing: border-box;
     font-family:'Open Sans', sans-serif;
 }
-.logo{
+.center{
+}
+#logo{
     text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 5%;
 }
 #menu ul{
-    text-align: center;
     list-style-type: none;
-    font-size: 20px;
     background-color: rgb(66, 65, 65);
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
-#menu ul li{
-    display: inline;
+#rodas{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 #menu ul li a{
-    color: white;
+    color:white;
     text-decoration: none;
     display: inline-block;
     padding: 30px;
-    transition: background .4s;
+    transition: .4s;
 }
 #menu ul li a:hover{
-    background-color:rgb(93, 93, 226);
+    color: white;
+    background-color: rgb(93, 93, 226);
+    -webkit-box-shadow:0 3px 10px 0 rgb(93, 93, 226);
 }
-.SobreNos{
-    width: 70%;
-    border: 2px solid;
-    border-radius: 7px;
-    margin: 7% auto;
-    padding: 2%;
-    background-color: rgb(195, 204, 245);
-}
-#TituloSobreNos{
-    font-size: 25px;
+.Loja-Rodas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    margin: 5% auto;
     text-align: center;
-    font-weight: bold;
 }
-#TextoSobreNos{
-    text-align: justify;
-    font-size: 20px;
-}
-#Telefone{
-    text-align: center;
-    font-weight: bold;
-}
-#imgcarro{
-    text-align: center;
+#nome{
     padding: 1%;
-    margin: 1% auto;
+    width: 60%;
+}
+#valor{
+    font-weight: bold;
+    font-size: 30px;
+}
+.Loja-Rodas a{
+    text-decoration: none;
+    color: black;
+}
+.Loja-Rodas a:hover{
+    color:rgb(8, 8, 160) ;
+    opacity:0.9; 
 }
 footer{
     border-top: 2px solid black;
     background-color: rgb(195, 204, 245);
-    font-family:'Roboto', sans-serif;
 }
 .RedesLogo{
     display:flex;
